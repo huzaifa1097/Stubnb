@@ -1,4 +1,5 @@
 Stubnb
+
 Stubnb is a full-stack web application inspired by Airbnb, built using the MERN stack (MongoDB, Express, React, Node.js). The goal is to provide users with a feature-rich platform for property rentals, including user authentication, property management, and booking functionality.
 
 Features
