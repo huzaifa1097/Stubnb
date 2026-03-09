@@ -1,21 +1,8 @@
-<<<<<<< HEAD
 [build]
-  base = "client"
-  publish = "/dist"
-  command = "yarn build"
+  command = "npm run build"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-=======
-[build]
-  base = "client"
-  publish = "/dist"
-  command = "yarn build"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
->>>>>>> b6a50ca3ff185bcb3129564d7578e3e47f4b5083
