@@ -22,6 +22,9 @@ cloudinary.config({
 
 const app = express();
 
+// Trust the proxy (needed for secure cookies on Render)
+app.set('trust proxy', 1);
+
 // For handling cookies
 app.use(cookieParser());
 
